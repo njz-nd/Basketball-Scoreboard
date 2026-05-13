@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #F9FAFB;
+}
+
+@font-face {
+    font-family: 'cursed';
+    src: url(Font/CursedTimerUlil-Aznm.ttf); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto 80px;
+
+}
+
+#home, #guest {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.score {
+    background-color: #080001;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    align-items: center;
+    margin: 0px;
+    font-family: cursed;
+    font-weight: 100;
+    font-size: 90px;
+    line-height: 1;
+    color: #F94F6D;
+    border-radius: 10px;
+}
+
+.score p {
+    margin: 0px;
+    line-height: 1;
+}
+
+.btn {
+    font-family: cursed;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #F9FAFB;
+    background-color: #1B244A;
+    padding: 8px 8px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border: 1px solid #9AABD8;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+.btn:hover {
+    background-color: #2a3660;  
+}
+
+#reset-btn {
+    display: block;
+    margin: 350px 0 0px;
+    height: 40px;
+    width: 80px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #6B7280;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid #6B7280;
+    background-color: #1B244A;
+}
+
+#reset-btn:hover {
+    background-color: #2a3660;     
+}
